@@ -1,20 +1,31 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
-header {
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+.topo {
     display: flex;
-    flex-direction: row;
+    height: 10vh;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     background-color: darkmagenta;
-    padding: 20px 20px;
+    color: white;
 }
 
 .container {
-    width: 100%;
-    height: 540px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco {
+    padding: 40px;
+    min-height: 400px;
+}
+
+.bloco1 {
     background-color: darkorchid;
 }
