@@ -22,10 +22,82 @@ body {
 }
 
 .bloco {
-    padding: 40px;
+    padding: 70px;
     min-height: 400px;
 }
 
 .bloco1 {
     background-color: darkorchid;
+}
+.h2 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+.h2 p {
+    text-align: justify;
+}
+
+h2 {
+    color: darkmagenta;
+}
+
+hr {
+    width: 10%;
+    margin: 20px auto;
+    margin-bottom: 70px;
+    border-color: darkorchid;
+}
+
+.bloco2 {
+    background-color: white;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: darkmagenta;
+}
+.equipe {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.membro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    background-color: darkorchid;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.time {
+    font-size: 30px;
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+.dev {
+    margin-top: 5px;
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+.rodape {
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
 }
